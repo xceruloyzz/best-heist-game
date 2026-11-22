@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIDNIGHT VAULT — a top-down heist game</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="stage">
+  <canvas id="game" width="1280" height="704"></canvas>
+  <div id="controls">
+    <button id="btn-start" type="button">Start (Enter)</button>
+    <button id="btn-pause" type="button">Pause (P)</button>
+    <button id="btn-restart" type="button">Restart (R)</button>
+    <button id="btn-smoke" type="button">Smoke (Q)</button>
+    <button id="btn-emp" type="button">EMP (F)</button>
+    <button id="btn-mute" type="button">Mute (M)</button>
+  </div>
+  <p id="help">WASD / arrows to move, click to walk there. Lift every loot, crack the
+  vault, then slip out the green exit. Stay out of the yellow cones and the
+  blue camera sweeps — the alarm meter fills fast. Shift runs (loud),
+  C crouches (quiet, harder to see in the dark blue shadows).</p>
+</main>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

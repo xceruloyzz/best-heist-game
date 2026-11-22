@@ -1,0 +1,55 @@
+/* MIDNIGHT VAULT — page chrome around the canvas. The game itself is
+   drawn on the canvas; this file only frames it and its buttons. */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #07090e;
+  color: #e8e6df;
+  font-family: "Courier New", ui-monospace, monospace;
+}
+
+#stage {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #0b0e14;
+  border: 2px solid #f5c542;
+  cursor: crosshair;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+#controls button {
+  background: #1d2637;
+  color: #e8e6df;
+  border: 1px solid #4d5a75;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background: #2a3852;
+  border-color: #f5c542;
+}
+
+#help {
+  color: #8b93a7;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 900px;
+}
